@@ -1,5 +1,4 @@
 const {getSurveys, getAverages} = require("../app.js");
-const mockAxios = require("axios");
 
 it("Tests if the correct amount of surveys have been returned from the function", async () => {
     const count = 5;

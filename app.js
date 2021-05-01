@@ -1,4 +1,4 @@
-const axios = require('axios');
+const axios = require("axios");
 const fs = require("fs");
 
 const init = async () => {
@@ -8,7 +8,8 @@ const init = async () => {
 }
 
 const getAverages = async () => {
-    let surveys = await getSurveys(15);
+    // getSurveys(number of surveys to retrieve from endpoint)
+    const surveys = await getSurveys(15);
 
     let surveyData = {};
     surveys.forEach((survey) => {
