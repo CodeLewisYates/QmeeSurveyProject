@@ -9,7 +9,7 @@ shortest time survey, least popular survey.
 
 Outputs the data it has collected to a file in the same directory called "Survey Results".
 
-Use "node app" to run.
+Use "npm start" or "node src/app" to run.
 Use "npm test" to run jest tests.
 
 Requires axios, please use "npm install" to install the axios dependency
