@@ -1,4 +1,4 @@
-const {getSurveys, getAverages} = require("../app.js");
+const {getSurveys, getAverages} = require("../helpers");
 
 it("Tests if the correct amount of surveys have been returned from the function", async () => {
     const count = 5;
